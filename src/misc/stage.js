@@ -6,16 +6,21 @@ import files from '../files/files.js';
 
 //
 
+const bg = false;
+
 const stageGroup = new THREE.Group();
 
-files.getModelDirect('museum').then( model => {
+if (bg) {
 
-	model.rotation.y -= Math.PI * 0.5;
-	model.position.z -= 0.7;
+	files.getModelDirect('museum').then( model => {
 
-	stageGroup.add( model );
+		model.rotation.y -= Math.PI * 0.5;
+		model.position.z -= 0.7;
 
-} );
+		stageGroup.add( model );
+
+	} );
+}
 
 //
 

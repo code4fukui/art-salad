@@ -23,6 +23,11 @@ class VRButton {
 				await renderer.xr.setSession( session );
 				button.textContent = 'EXIT VR';
 
+				session.isImmersive = true;
+        
+        // https://developer.mozilla.org/ja/docs/Web/API/XRSession/requestReferenceSpace
+        await session.requestReferenceSpace("local");
+				
 				currentSession = session;
 
 			}
@@ -71,7 +76,7 @@ class VRButton {
 					// be requested separately.)
 
 					const sessionInit = { optionalFeatures: [ 'local-floor', 'bounded-floor', 'hand-tracking', 'layers' ] };
-					navigator.xr.requestSession( 'immersive-vr', sessionInit ).then( onSessionStarted );
+					navigator.xr.requestSession( 'immersive-ar', sessionInit ).then( onSessionStarted );
 
 				} else {
 
@@ -149,7 +154,7 @@ class VRButton {
 
 			stylizeElement( button );
 
-			navigator.xr.isSessionSupported( 'immersive-vr' ).then( function ( supported ) {
+			navigator.xr.isSessionSupported( 'immersive-ar' ).then( function ( supported ) {
 
 				supported ? showEnterVR() : showWebXRNotFound();
 

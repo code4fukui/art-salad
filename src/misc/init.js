@@ -12,7 +12,7 @@ import { VRButton } from './VRButton.js';
 /* Create the container object, the scene */
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color( 0xc7c7c7 );
+//scene.background = new THREE.Color( 0xc7c7c7 );
 
 /* Create the camera from which the scene will be seen */
 
@@ -25,7 +25,7 @@ camera.lookAt( 0, 1, -1.8 );
 
 /* Create the renderer object, with VR parameters enabled */
 
-const renderer = new THREE.WebGLRenderer({ antialias: true });
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
 renderer.setSize( window.innerWidth, window.innerHeight );
 renderer.xr.enabled = true;
 renderer.outputEncoding = THREE.sRGBEncoding;
