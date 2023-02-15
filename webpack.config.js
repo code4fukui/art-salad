@@ -22,12 +22,12 @@ module.exports = env => {
     },
 
     output: {
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'docs'),
       filename: '[name].js'
     }, 
 
     devServer: {
-      static: path.resolve(__dirname, 'dist'),
+      static: path.resolve(__dirname, 'docs'),
     },
 
     plugins: [
