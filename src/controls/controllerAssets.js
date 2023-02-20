@@ -16,7 +16,7 @@ const material = new THREE.MeshBasicMaterial( {
 	transparent: true
 } );
 
-const geometry = new THREE.BoxBufferGeometry( 0.004, 0.004, 0.5 );
+const geometry = new THREE.BoxGeometry( 0.004, 0.004, 0.5 );
 
 geometry.translate( 0, 0, -0.15 );
 
