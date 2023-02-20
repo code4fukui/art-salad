@@ -8,8 +8,9 @@ import * as THREE from 'three';
 import ThreeMeshUI from 'three-mesh-ui';
 
 import params from './params.js';
+import { json } from "../json.js";
 
-const sourceJSON = "../../assets/fonts/Source.json";
+const sourceJSON = await json("../../assets/fonts/Source.json");
 const sourceImage = "../../assets/fonts/Source.png";
 const spinnerURL = "../../assets/UI-images/spinner.png";
 

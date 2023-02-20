@@ -19,7 +19,9 @@ import browser from './UI/browser.js';
 import infoPanel from './UI/info.js';
 import loading from './UI/loading.js';
 
-const sourceJSON = "../assets/fonts/Source.json";
+import { json } from "./json.js";
+
+const sourceJSON = await json("../assets/fonts/Source.json");
 const sourceImage = "../assets/fonts/Source.png";
 const exitIconURL = "../assets/UI-images/exit-icon.png";
 

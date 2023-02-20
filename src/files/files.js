@@ -7,6 +7,7 @@ rendering stuttering as much as possible.
 
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { json } from "../json.js";
 
 const museum = '../../assets/museum.glb';
 
@@ -25,17 +26,17 @@ const nazcaVessel = "../../assets/puzzles/nazca-vessel/nazca-vessel.glb";
 const paleoEngraving = "../../assets/puzzles/paleolithic-engraving/paleolithic-engraving.glb";
 const torzoTanku = "../../assets/puzzles/torzo-tanku/torzo-tanku.glb";
 
-const doubleHeadSculptInfo = "../../assets/puzzles/double-head-sculpt/info.json";
-const paintedTrashInfo = "../../assets/puzzles/painted-trash/info.json";
-const mexicoGraffitiInfo = "../../assets/puzzles/mexico-graffiti/info.json";
-const louviersCastleInfo = "../../assets/puzzles/louviers-castle/info.json";
-const seatedCupidInfo = "../../assets/puzzles/seated-cupid/info.json";
-const hydriaVaseInfo = "../../assets/puzzles/hydria-vase/info.json";
-const nTomoMaskInfo = "../../assets/puzzles/n-tomo-mask/info.json";
-const pentecostRederosInfo = "../../assets/puzzles/pentecost-rederos/info.json";
-const nazcaVesselInfo = "../../assets/puzzles/nazca-vessel/info.json";
-const paleoEngravingInfo = "../../assets/puzzles/paleolithic-engraving/info.json";
-const torzoTankuInfo = "../../assets/puzzles/torzo-tanku/info.json";
+const doubleHeadSculptInfo = await json("../../assets/puzzles/double-head-sculpt/info.json");
+const paintedTrashInfo = await json("../../assets/puzzles/painted-trash/info.json");
+const mexicoGraffitiInfo = await json("../../assets/puzzles/mexico-graffiti/info.json");
+const louviersCastleInfo = await json("../../assets/puzzles/louviers-castle/info.json");
+const seatedCupidInfo = await json("../../assets/puzzles/seated-cupid/info.json");
+const hydriaVaseInfo = await json("../../assets/puzzles/hydria-vase/info.json");
+const nTomoMaskInfo = await json("../../assets/puzzles/n-tomo-mask/info.json");
+const pentecostRederosInfo = await json("../../assets/puzzles/pentecost-rederos/info.json");
+const nazcaVesselInfo = await json("../../assets/puzzles/nazca-vessel/info.json");
+const paleoEngravingInfo = await json("../../assets/puzzles/paleolithic-engraving/info.json");
+const torzoTankuInfo = await json("../../assets/puzzles/torzo-tanku/info.json");
 
 const doubleHeadSculptImg = "../../assets/puzzles/double-head-sculpt/thumbnail.jpg";
 const paintedTrashImg = "../../assets/puzzles/painted-trash/thumbnail.jpg";
