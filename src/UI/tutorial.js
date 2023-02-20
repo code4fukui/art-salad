@@ -9,14 +9,14 @@ import ThreeMeshUI from 'three-mesh-ui';
 
 import params from './params.js';
 
-import firaJSON from '../../assets/fonts/Fira.json';
-import firaImage from '../../assets/fonts/Fira.png';
-import sourceJSON from '../../assets/fonts/Source.json';
-import sourceImage from '../../assets/fonts/Source.png';
+const firaJSON = "../../assets/fonts/Fira.json";
+const firaImage = "../../assets/fonts/Fira.png";
+const sourceJSON = "../../assets/fonts/Source.json";
+const sourceImage = "../../assets/fonts/Source.png";
 
-import joystickURL from '../../assets/UI-images/joystick.jpg';
-import triggerURL from '../../assets/UI-images/trigger-button.jpg';
-import squeezeURL from '../../assets/UI-images/squeeze-button.jpg';
+const joystickURL = "../../assets/UI-images/joystick.jpg";
+const triggerURL = "../../assets/UI-images/trigger-button.jpg";
+const squeezeURL = "../../assets/UI-images/squeeze-button.jpg";
 
 //
 

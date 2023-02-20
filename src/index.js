@@ -5,8 +5,8 @@ import stage from './misc/stage.js';
 import UI from './UI.js';
 import gameManager from './gameManager.js';
 
-import ghIconURL from '../assets/UI-images/github-icon.png';
-
+const ghIconURL = '../assets/UI-images/github-icon.png';
+console.log("gg", ghIconURL)
 //
 
 scene.add( stage, UI.group, UI.loadingGroup );

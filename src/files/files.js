@@ -8,46 +8,46 @@ rendering stuttering as much as possible.
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
-import museum from '../../assets/museum.glb';
+const museum = '../../assets/museum.glb';
 
 // TODO: find a better way to import URLs and build the dist folder, as this method
 // will quickly get out of hands.
 
-import doubleHeadSculpt from '../../assets/puzzles/double-head-sculpt/double-head-sculpt.glb';
-import paintedTrash from '../../assets/puzzles/painted-trash/painted-trash.glb';
-import mexicoGraffiti from '../../assets/puzzles/mexico-graffiti/mexico-graffiti.glb';
-import louviersCastle from '../../assets/puzzles/louviers-castle/louviers-castle.glb';
-import seatedCupid from '../../assets/puzzles/seated-cupid/seated-cupid.glb';
-import hydriaVase from '../../assets/puzzles/hydria-vase/hydria-vase.glb';
-import nTomoMask from '../../assets/puzzles/n-tomo-mask/n-tomo-mask.glb';
-import pentecostRederos from '../../assets/puzzles/pentecost-rederos/pentecost-rederos.glb';
-import nazcaVessel from '../../assets/puzzles/nazca-vessel/nazca-vessel.glb';
-import paleoEngraving from '../../assets/puzzles/paleolithic-engraving/paleolithic-engraving.glb';
-import torzoTanku from '../../assets/puzzles/torzo-tanku/torzo-tanku.glb';
+const doubleHeadSculpt = "../../assets/puzzles/double-head-sculpt/double-head-sculpt.glb";
+const paintedTrash = "../../assets/puzzles/painted-trash/painted-trash.glb";
+const mexicoGraffiti = "../../assets/puzzles/mexico-graffiti/mexico-graffiti.glb";
+const louviersCastle = "../../assets/puzzles/louviers-castle/louviers-castle.glb";
+const seatedCupid = "../../assets/puzzles/seated-cupid/seated-cupid.glb";
+const hydriaVase = "../../assets/puzzles/hydria-vase/hydria-vase.glb";
+const nTomoMask = "../../assets/puzzles/n-tomo-mask/n-tomo-mask.glb";
+const pentecostRederos = "../../assets/puzzles/pentecost-rederos/pentecost-rederos.glb";
+const nazcaVessel = "../../assets/puzzles/nazca-vessel/nazca-vessel.glb";
+const paleoEngraving = "../../assets/puzzles/paleolithic-engraving/paleolithic-engraving.glb";
+const torzoTanku = "../../assets/puzzles/torzo-tanku/torzo-tanku.glb";
 
-import doubleHeadSculptInfo from '../../assets/puzzles/double-head-sculpt/info.json';
-import paintedTrashInfo from '../../assets/puzzles/painted-trash/info.json';
-import mexicoGraffitiInfo from '../../assets/puzzles/mexico-graffiti/info.json';
-import louviersCastleInfo from '../../assets/puzzles/louviers-castle/info.json';
-import seatedCupidInfo from '../../assets/puzzles/seated-cupid/info.json';
-import hydriaVaseInfo from '../../assets/puzzles/hydria-vase/info.json';
-import nTomoMaskInfo from '../../assets/puzzles/n-tomo-mask/info.json';
-import pentecostRederosInfo from '../../assets/puzzles/pentecost-rederos/info.json';
-import nazcaVesselInfo from '../../assets/puzzles/nazca-vessel/info.json';
-import paleoEngravingInfo from '../../assets/puzzles/paleolithic-engraving/info.json';
-import torzoTankuInfo from '../../assets/puzzles/torzo-tanku/info.json';
+const doubleHeadSculptInfo = "../../assets/puzzles/double-head-sculpt/info.json";
+const paintedTrashInfo = "../../assets/puzzles/painted-trash/info.json";
+const mexicoGraffitiInfo = "../../assets/puzzles/mexico-graffiti/info.json";
+const louviersCastleInfo = "../../assets/puzzles/louviers-castle/info.json";
+const seatedCupidInfo = "../../assets/puzzles/seated-cupid/info.json";
+const hydriaVaseInfo = "../../assets/puzzles/hydria-vase/info.json";
+const nTomoMaskInfo = "../../assets/puzzles/n-tomo-mask/info.json";
+const pentecostRederosInfo = "../../assets/puzzles/pentecost-rederos/info.json";
+const nazcaVesselInfo = "../../assets/puzzles/nazca-vessel/info.json";
+const paleoEngravingInfo = "../../assets/puzzles/paleolithic-engraving/info.json";
+const torzoTankuInfo = "../../assets/puzzles/torzo-tanku/info.json";
 
-import doubleHeadSculptImg from '../../assets/puzzles/double-head-sculpt/thumbnail.jpg';
-import paintedTrashImg from '../../assets/puzzles/painted-trash/thumbnail.jpg';
-import mexicoGraffitiImg from '../../assets/puzzles/mexico-graffiti/thumbnail.jpg';
-import louviersCastleImg from '../../assets/puzzles/louviers-castle/thumbnail.jpg';
-import seatedCupidImg from '../../assets/puzzles/seated-cupid/thumbnail.jpg';
-import hydriaVaseImg from '../../assets/puzzles/hydria-vase/thumbnail.jpg';
-import nTomoMaskImg from '../../assets/puzzles/n-tomo-mask/thumbnail.jpg';
-import pentecostRederosImg from '../../assets/puzzles/pentecost-rederos/thumbnail.jpg';
-import nazcaVesselImg from '../../assets/puzzles/nazca-vessel/thumbnail.jpg';
-import paleoEngravingImg from '../../assets/puzzles/paleolithic-engraving/thumbnail.jpg';
-import torzoTankuImg from '../../assets/puzzles/torzo-tanku/thumbnail.jpg';
+const doubleHeadSculptImg = "../../assets/puzzles/double-head-sculpt/thumbnail.jpg";
+const paintedTrashImg = "../../assets/puzzles/painted-trash/thumbnail.jpg";
+const mexicoGraffitiImg = "../../assets/puzzles/mexico-graffiti/thumbnail.jpg";
+const louviersCastleImg = "../../assets/puzzles/louviers-castle/thumbnail.jpg";
+const seatedCupidImg = "../../assets/puzzles/seated-cupid/thumbnail.jpg";
+const hydriaVaseImg = "../../assets/puzzles/hydria-vase/thumbnail.jpg";
+const nTomoMaskImg = "../../assets/puzzles/n-tomo-mask/thumbnail.jpg";
+const pentecostRederosImg = "../../assets/puzzles/pentecost-rederos/thumbnail.jpg";
+const nazcaVesselImg = "../../assets/puzzles/nazca-vessel/thumbnail.jpg";
+const paleoEngravingImg = "../../assets/puzzles/paleolithic-engraving/thumbnail.jpg";
+const torzoTankuImg = "../../assets/puzzles/torzo-tanku/thumbnail.jpg";
 
 const modelURLs = {
 	museum,
@@ -122,7 +122,7 @@ const objectLoader = new THREE.ObjectLoader();
 
 if ( typeof Worker !== 'undefined' ) {
 
-	worker = new Worker( new URL('worker.js', import.meta.url ) );
+	worker = new Worker( new URL('worker.js', import.meta.url ), { type: "module" } );
 
 	worker.onmessage = function( e ) {
 

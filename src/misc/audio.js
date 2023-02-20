@@ -5,9 +5,9 @@ import { camera, scene, loopCallbacks } from './init.js';
 import events from './events.js';
 import controls from '../controls/controls.js';
 
-import lightTapURL from '../../assets/sounds/Minimalist1.mp3';
-import strongTagURL from '../../assets/sounds/Minimalist7.mp3';
-import mergeURL from '../../assets/sounds/Minimalist10.mp3';
+const lightTapURL = "../../assets/sounds/Minimalist1.mp3";
+const strongTagURL = "../../assets/sounds/Minimalist7.mp3";
+const mergeURL = "../../assets/sounds/Minimalist10.mp3";
 
 //
 

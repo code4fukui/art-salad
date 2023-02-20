@@ -9,11 +9,11 @@ import ThreeMeshUI from 'three-mesh-ui';
 
 import params from './params.js';
 
-import imageURL from '../../assets/UI-images/home-background.jpg';
-import firaJSON from '../../assets/fonts/Fira.json';
-import firaImage from '../../assets/fonts/Fira.png';
-import sourceJSON from '../../assets/fonts/Source.json';
-import sourceImage from '../../assets/fonts/Source.png';
+const imageURL = "../../assets/UI-images/home-background.jpg";
+const firaJSON = "../../assets/fonts/Fira.json";
+const firaImage = "../../assets/fonts/Fira.png";
+const sourceJSON = "../../assets/fonts/Source.json";
+const sourceImage = "../../assets/fonts/Source.png";
 
 //
 

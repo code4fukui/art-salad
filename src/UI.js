@@ -19,9 +19,9 @@ import browser from './UI/browser.js';
 import infoPanel from './UI/info.js';
 import loading from './UI/loading.js';
 
-import sourceJSON from '../assets/fonts/Source.json';
-import sourceImage from '../assets/fonts/Source.png';
-import exitIconURL from '../assets/UI-images/exit-icon.png';
+const sourceJSON = "../assets/fonts/Source.json";
+const sourceImage = "../assets/fonts/Source.png";
+const exitIconURL = "../assets/UI-images/exit-icon.png";
 
 // constents for animations
 

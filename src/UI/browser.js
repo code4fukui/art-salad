@@ -11,12 +11,12 @@ import params from './params.js';
 import files from '../files/files.js';
 import events from '../misc/events.js';
 
-import firaJSON from '../../assets/fonts/Fira.json';
-import firaImage from '../../assets/fonts/Fira.png';
-import sourceJSON from '../../assets/fonts/Source.json';
-import sourceImage from '../../assets/fonts/Source.png';
-import arrowLeftURL from '../../assets/UI-images/arrow-left.png';
-import arrowRightURL from '../../assets/UI-images/arrow-right.png';
+const firaJSON = "../../assets/fonts/Fira.json";
+const firaImage = "../../assets/fonts/Fira.png";
+const sourceJSON = "../../assets/fonts/Source.json";
+const sourceImage = "../../assets/fonts/Source.png";
+const arrowLeftURL = "../../assets/UI-images/arrow-left.png";
+const arrowRightURL = "../../assets/UI-images/arrow-right.png";
 
 //
 

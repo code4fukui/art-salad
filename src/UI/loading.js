@@ -9,9 +9,9 @@ import ThreeMeshUI from 'three-mesh-ui';
 
 import params from './params.js';
 
-import sourceJSON from '../../assets/fonts/Source.json';
-import sourceImage from '../../assets/fonts/Source.png';
-import spinnerURL from '../../assets/UI-images/spinner.png';
+const sourceJSON = "../../assets/fonts/Source.json";
+const sourceImage = "../../assets/fonts/Source.png";
+const spinnerURL = "../../assets/UI-images/spinner.png";
 
 //
 
