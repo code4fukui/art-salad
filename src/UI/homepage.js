@@ -10,11 +10,11 @@ import ThreeMeshUI from 'three-mesh-ui';
 import params from './params.js';
 import { json } from "../json.js";
 
-const imageURL = "../../assets/UI-images/home-background.jpg";
-//const firaJSON = await json("../../assets/fonts/Fira.json");
-//const firaImage = "../../assets/fonts/Fira.png";
-const sourceJSON = await json("../../assets/fonts/Source.json");
-const sourceImage = "../../assets/fonts/Source.png";
+const imageURL = "../assets/UI-images/home-background.jpg";
+//const firaJSON = await json("../assets/fonts/Fira.json");
+//const firaImage = "../assets/fonts/Fira.png";
+const sourceJSON = await json("../assets/fonts/Source.json");
+const sourceImage = "../assets/fonts/Source.png";
 
 //
 

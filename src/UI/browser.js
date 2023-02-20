@@ -13,12 +13,12 @@ import files from '../files/files.js';
 
 import { json } from "../json.js";
 
-//const firaJSON = await json("../../assets/fonts/Fira.json");
-//const firaImage = "../../assets/fonts/Fira.png";
-const sourceJSON = await json("../../assets/fonts/Source.json");
-const sourceImage = "../../assets/fonts/Source.png";
-const arrowLeftURL = "../../assets/UI-images/arrow-left.png";
-const arrowRightURL = "../../assets/UI-images/arrow-right.png";
+//const firaJSON = await json("../assets/fonts/Fira.json");
+//const firaImage = "../assets/fonts/Fira.png";
+const sourceJSON = await json("../assets/fonts/Source.json");
+const sourceImage = "../assets/fonts/Source.png";
+const arrowLeftURL = "../assets/UI-images/arrow-left.png";
+const arrowRightURL = "../assets/UI-images/arrow-right.png";
 
 //
 
