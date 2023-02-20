@@ -38,17 +38,17 @@ const nazcaVesselInfo = await json("../assets/puzzles/nazca-vessel/info.json");
 const paleoEngravingInfo = await json("../assets/puzzles/paleolithic-engraving/info.json");
 const torzoTankuInfo = await json("../assets/puzzles/torzo-tanku/info.json");
 
-const doubleHeadSculptImg = "../../assets/puzzles/double-head-sculpt/thumbnail.jpg";
-const paintedTrashImg = "../../assets/puzzles/painted-trash/thumbnail.jpg";
-const mexicoGraffitiImg = "../../assets/puzzles/mexico-graffiti/thumbnail.jpg";
-const louviersCastleImg = "../../assets/puzzles/louviers-castle/thumbnail.jpg";
-const seatedCupidImg = "../../assets/puzzles/seated-cupid/thumbnail.jpg";
-const hydriaVaseImg = "../../assets/puzzles/hydria-vase/thumbnail.jpg";
-const nTomoMaskImg = "../../assets/puzzles/n-tomo-mask/thumbnail.jpg";
-const pentecostRederosImg = "../../assets/puzzles/pentecost-rederos/thumbnail.jpg";
-const nazcaVesselImg = "../../assets/puzzles/nazca-vessel/thumbnail.jpg";
-const paleoEngravingImg = "../../assets/puzzles/paleolithic-engraving/thumbnail.jpg";
-const torzoTankuImg = "../../assets/puzzles/torzo-tanku/thumbnail.jpg";
+const doubleHeadSculptImg = "../assets/puzzles/double-head-sculpt/thumbnail.jpg";
+const paintedTrashImg = "../assets/puzzles/painted-trash/thumbnail.jpg";
+const mexicoGraffitiImg = "../assets/puzzles/mexico-graffiti/thumbnail.jpg";
+const louviersCastleImg = "../assets/puzzles/louviers-castle/thumbnail.jpg";
+const seatedCupidImg = "../assets/puzzles/seated-cupid/thumbnail.jpg";
+const hydriaVaseImg = "../assets/puzzles/hydria-vase/thumbnail.jpg";
+const nTomoMaskImg = "../assets/puzzles/n-tomo-mask/thumbnail.jpg";
+const pentecostRederosImg = "../assets/puzzles/pentecost-rederos/thumbnail.jpg";
+const nazcaVesselImg = "../assets/puzzles/nazca-vessel/thumbnail.jpg";
+const paleoEngravingImg = "../assets/puzzles/paleolithic-engraving/thumbnail.jpg";
+const torzoTankuImg = "../assets/puzzles/torzo-tanku/thumbnail.jpg";
 
 const modelURLs = {
 	museum,
