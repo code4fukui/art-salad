@@ -14,17 +14,17 @@ const museum = '../assets/museum.glb';
 // TODO: find a better way to import URLs and build the dist folder, as this method
 // will quickly get out of hands.
 
-const doubleHeadSculpt = "../assets/puzzles/double-head-sculpt/double-head-sculpt.glb";
-const paintedTrash = "../assets/puzzles/painted-trash/painted-trash.glb";
-const mexicoGraffiti = "../assets/puzzles/mexico-graffiti/mexico-graffiti.glb";
-const louviersCastle = "../assets/puzzles/louviers-castle/louviers-castle.glb";
-const seatedCupid = "../assets/puzzles/seated-cupid/seated-cupid.glb";
-const hydriaVase = "../assets/puzzles/hydria-vase/hydria-vase.glb";
-const nTomoMask = "../assets/puzzles/n-tomo-mask/n-tomo-mask.glb";
-const pentecostRederos = "../assets/puzzles/pentecost-rederos/pentecost-rederos.glb";
-const nazcaVessel = "../assets/puzzles/nazca-vessel/nazca-vessel.glb";
-const paleoEngraving = "../assets/puzzles/paleolithic-engraving/paleolithic-engraving.glb";
-const torzoTanku = "../assets/puzzles/torzo-tanku/torzo-tanku.glb";
+const doubleHeadSculpt = "../../assets/puzzles/double-head-sculpt/double-head-sculpt.glb";
+const paintedTrash = "../../assets/puzzles/painted-trash/painted-trash.glb";
+const mexicoGraffiti = "../../assets/puzzles/mexico-graffiti/mexico-graffiti.glb";
+const louviersCastle = "../../assets/puzzles/louviers-castle/louviers-castle.glb";
+const seatedCupid = "../../assets/puzzles/seated-cupid/seated-cupid.glb";
+const hydriaVase = "../../assets/puzzles/hydria-vase/hydria-vase.glb";
+const nTomoMask = "../../assets/puzzles/n-tomo-mask/n-tomo-mask.glb";
+const pentecostRederos = "../../assets/puzzles/pentecost-rederos/pentecost-rederos.glb";
+const nazcaVessel = "../../assets/puzzles/nazca-vessel/nazca-vessel.glb";
+const paleoEngraving = "../../assets/puzzles/paleolithic-engraving/paleolithic-engraving.glb";
+const torzoTanku = "../../assets/puzzles/torzo-tanku/torzo-tanku.glb";
 
 const doubleHeadSculptInfo = await json("../assets/puzzles/double-head-sculpt/info.json");
 const paintedTrashInfo = await json("../assets/puzzles/painted-trash/info.json");
@@ -38,17 +38,17 @@ const nazcaVesselInfo = await json("../assets/puzzles/nazca-vessel/info.json");
 const paleoEngravingInfo = await json("../assets/puzzles/paleolithic-engraving/info.json");
 const torzoTankuInfo = await json("../assets/puzzles/torzo-tanku/info.json");
 
-const doubleHeadSculptImg = "../assets/puzzles/double-head-sculpt/thumbnail.jpg";
-const paintedTrashImg = "../assets/puzzles/painted-trash/thumbnail.jpg";
-const mexicoGraffitiImg = "../assets/puzzles/mexico-graffiti/thumbnail.jpg";
-const louviersCastleImg = "../assets/puzzles/louviers-castle/thumbnail.jpg";
-const seatedCupidImg = "../assets/puzzles/seated-cupid/thumbnail.jpg";
-const hydriaVaseImg = "../assets/puzzles/hydria-vase/thumbnail.jpg";
-const nTomoMaskImg = "../assets/puzzles/n-tomo-mask/thumbnail.jpg";
-const pentecostRederosImg = "../assets/puzzles/pentecost-rederos/thumbnail.jpg";
-const nazcaVesselImg = "../assets/puzzles/nazca-vessel/thumbnail.jpg";
-const paleoEngravingImg = "../assets/puzzles/paleolithic-engraving/thumbnail.jpg";
-const torzoTankuImg = "../assets/puzzles/torzo-tanku/thumbnail.jpg";
+const doubleHeadSculptImg = "../../assets/puzzles/double-head-sculpt/thumbnail.jpg";
+const paintedTrashImg = "../../assets/puzzles/painted-trash/thumbnail.jpg";
+const mexicoGraffitiImg = "../../assets/puzzles/mexico-graffiti/thumbnail.jpg";
+const louviersCastleImg = "../../assets/puzzles/louviers-castle/thumbnail.jpg";
+const seatedCupidImg = "../../assets/puzzles/seated-cupid/thumbnail.jpg";
+const hydriaVaseImg = "../../assets/puzzles/hydria-vase/thumbnail.jpg";
+const nTomoMaskImg = "../../assets/puzzles/n-tomo-mask/thumbnail.jpg";
+const pentecostRederosImg = "../../assets/puzzles/pentecost-rederos/thumbnail.jpg";
+const nazcaVesselImg = "../../assets/puzzles/nazca-vessel/thumbnail.jpg";
+const paleoEngravingImg = "../../assets/puzzles/paleolithic-engraving/thumbnail.jpg";
+const torzoTankuImg = "../../assets/puzzles/torzo-tanku/thumbnail.jpg";
 
 const modelURLs = {
 	museum,
