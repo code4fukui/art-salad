@@ -1,5 +1,7 @@
 # Art Salad
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 Art Salad is a website where you can play with jigsaw puzzles made from 3D scans of art and historical objects in immersive VR.
 
 ## Features
