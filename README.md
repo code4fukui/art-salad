@@ -23,4 +23,4 @@ Requires a virtual reality headset such as Meta Quest.
 Most puzzle models come from [Sketchfab](https://sketchfab.com/) and are under Creative Commons license.
 
 ## License
-This project is open-source and available under the MIT License.
+MIT License — see [LICENSE](LICENSE).
